@@ -26,7 +26,7 @@ The following diagram is aimed at support and operations staff as well as develo
 
 ## <a name="component"></a> Level 3: Component diagrams
 
-The following diagrams are aimed at architects and developers and show more detail on the components of the software containers we are developing. In particular we identify the key configurables of each container.
+The following diagrams are aimed at architects and developers and show more detail on the components of the software containers being developed. In particular we identify the key configurables of each container.
 
 _Coming soon!_
 
