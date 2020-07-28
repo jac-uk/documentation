@@ -1,4 +1,4 @@
-# Architecture
+# Architecture Diagrams
 
 We are loosely following the [C4 Model](https://c4model.com) for diagramming our software architecture.
 
@@ -26,11 +26,11 @@ The following diagram is aimed at support and operations staff as well as develo
 
 ## <a name="component"></a> Level 3: Component diagrams
 
-The following diagrams are aimed at architects and developers and show more detail on the components of the software containers being developed. In particular we identify the key configurables of each container.
+The following diagrams are aimed at architects and developers and show more detail on the components of the software containers being developed. In particular we identify the key configurables of each cloud-based container.
 
 _Coming soon!_
 
 
 ## Level 4: Code diagrams
 
-We do not currently have any code diagrams. As a small agile team it is unlikely we will add any anytime soon.
+We do not currently have any code diagrams. As a small agile team it is unlikely we will add code diagrams anytime soon.
