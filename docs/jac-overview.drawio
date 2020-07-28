@@ -1,4 +1,4 @@
-<mxfile modified="2020-07-27T21:24:30.734Z" host="app.diagrams.net" agent="5.0 (Macintosh)" etag="QJTk4csU23TNWcwgPnYz" version="13.5.1" type="github" pages="2">
+<mxfile modified="2020-07-28T07:34:32.257Z" host="app.diagrams.net" agent="5.0 (Macintosh)" etag="2czB6LcMKVwvBUZGnCIJ" version="13.5.1" type="github" pages="2">
   <diagram id="oyVTfbrthm_-wxzk1ZXb" name="Context">
     <mxGraphModel dx="1045" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="Yy4u_d4SeMjxJnoAWtQS-9" value="&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;Assessor&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;[Person]&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Candidate-nominated &lt;br&gt;&lt;/div&gt;&lt;div&gt;referee&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.c4.person;align=center;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];fillColor=#004C99;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="230" width="150" height="140" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;Digital Platform&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Create exercises, accept and process applications&lt;br&gt;&lt;/div&gt;" link="https://github.com/jac-uk/documentation/blob/master/git-commands.md" id="Yy4u_d4SeMjxJnoAWtQS-10">
+        <UserObject label="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;Digital Platform&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[Software System]&lt;/div&gt;&lt;br&gt;&lt;div&gt;Create exercises and process applications&lt;br&gt;&lt;/div&gt;" id="Yy4u_d4SeMjxJnoAWtQS-10">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;fontColor=#000000;align=center;arcSize=10;strokeColor=#6c8ebf;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
             <mxGeometry x="225" y="450" width="575" height="110" as="geometry" />
           </mxCell>
