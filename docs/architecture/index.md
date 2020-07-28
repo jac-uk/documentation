@@ -4,7 +4,7 @@ We are loosely following the [C4 Model](https://c4model.com) for diagramming our
 
 ## <a name="context"></a> Level 1: System Context diagram
 
-The following context diagram is suitable for anyone to gain a high-level overview of the system. It shows the main personas interacting with the Digital Platform and the existing software systems it connects to.
+The following context diagram is suitable for anyone to gain a high-level overview of the system. It shows the main personas interacting with the Digital Platform and the existing software the system connects to.
 
 ![System Context diagram](jac-overview-Context.svg)
 
