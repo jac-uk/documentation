@@ -1,6 +1,6 @@
 # Roadmap
 
-On 17 June 2020 we released the MVP for Digital Platform. As well as supporting the live system we aim to focus on the following areas:
+On 17 June 2020 we released the MVP for Digital Platform. As well as supporting the live system our focus is now in the following areas:
 
 ## System security, health and maintenance
 
