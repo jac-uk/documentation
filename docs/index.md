@@ -12,7 +12,10 @@ We are currently updating our documentation and bringing it together in one plac
   - [Git commands](git-commands.md)
   - Release process
 - Testing
-  - Test policy
+  - Testing policy
   - Test scripts
+- Security & Data Policy
+  - Data Protection Impact Assessment
+- [System status](status.md)
 - Research
   - Github Actions vs CircleCI
