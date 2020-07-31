@@ -12,16 +12,26 @@
     </tr>
     <tr >
       <td style="border: 1px solid black;">Full Name</td>
-      <td style="border: 1px solid black; background-color: #218a5c;">Enter a value for full name</td>
+      <td style="border: 1px solid black; background-color: #218a5c;">
+        Enter a value for full name</td>
       <td style="border: 1px solid black;">[ ]</td>
-      <td style="border: 1px solid black; background-color: #8a2621;" >Empty value <br>1 character name<br>1 number name<br>No dots
+      <td style="border: 1px solid black; background-color: #8a2621;" >
+        Empty value <br>1 character name<br>1 number name<br>
       <td style="border: 1px solid black;">[ ]</td>
     </tr>
     <tr>
       <td style="border: 1px solid black;">Email</td>
-      <td style="border: 1px solid black; background-color: #218a5c;">Enter a valid Email</td>
+      <td style="border: 1px solid black; background-color: #218a5c;">
+        Enter a valid Email
+      </td>
       <td style="border: 1px solid black;">[ ]</td>
-      <td style="border: 1px solid black; background-color: #8a2621;">Empty value <br>No @ symbol<br>Non-existant domain<br>100 characters name<br>Special characters</td>
+      <td style="border: 1px solid black; background-color: #8a2621;">
+        Empty value <br>
+        No @ symbol<br>
+        Non-existant domain<br>
+        100 characters name<br>
+        Special characters<br>
+      </td>
       <td style="border: 1px solid black;">[ ]</td>
     </tr>
     <tr>
