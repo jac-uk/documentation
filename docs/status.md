@@ -18,5 +18,4 @@ Here we are pooling together various status and stats into an overview of system
 
 ## Digital Platform
 
-[![CircleCI](https://circleci.com/gh/jac-uk/digital-platform/tree/master.svg?style=svg)](https://circleci.com/gh/jac-uk/digital-platform/tree/master)
-
+TBC
