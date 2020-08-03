@@ -4,6 +4,7 @@ We are currently updating our documentation and bringing it together in one plac
 
 - [Roadmap](roadmap.md)
 - Architecture
+  - [Overview](architecture/overview.md)
   - [Diagrams](architecture/index.md)
   - Decision Register
 - Developer Guide
