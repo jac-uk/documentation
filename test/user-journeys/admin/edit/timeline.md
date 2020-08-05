@@ -8,14 +8,26 @@
     </thead>
     <tbody style="border: 1px solid black;">
         <tr style="border: 1px solid black;">
-            <td style="border: 1px solid black;">Item/Field</td>
-            <td colspan="2" style="border: 1px solid black; background-color: #218a5c;">Positive Testing</td>
-            <td colspan="2" style="border: 1px solid black; background-color: #8a2621;">Negative Testing</td>
+            <td style="border: 1px solid black;">
+                Item/Field
+            </td>
+            <td colspan="2" style="border: 1px solid black; background-color: #218a5c;">
+                Positive Testing
+            </td>
+            <td colspan="2" style="border: 1px solid black; background-color: #8a2621;">
+                Negative Testing
+            </td>
         </tr>
         <tr>
-            <td style="border: 1px solid black;">Open for applications</td>
-            <td style="border: 1px solid black; background-color: #218a5c;">Valid Date in future (eg. 01/10/2020)</td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                Open for applications
+            </td>
+            <td style="border: 1px solid black; background-color: #218a5c;">
+                Valid Date in future (eg. 01/10/2020)
+            </td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -34,13 +46,21 @@
                 <br>
                 Month value greater than 12<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             </tr>
         </tr>
         <tr>
-            <td style="border: 1px solid black;">Closed for applications</td>
-            <td style="border: 1px solid black; background-color: #218a5c;">Valid Date further in future than open date (eg. 01/10/2020)</td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                Closed for applications
+            </td>
+            <td style="border: 1px solid black; background-color: #218a5c;">
+                Valid Date further in future than open date (eg. 01/10/2020)
+            </td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -61,15 +81,21 @@
                 <br>
                 Date prior to open for applications date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
-            <td style="border: 1px solid black;">Shortlisting - Shortlisting Outcome</td>
+            <td style="border: 1px solid black;">
+                Shortlisting - Shortlisting Outcome
+            </td>
             <td style="border: 1px solid black; background-color: #218a5c;">
             Valid Date further in future than open date (eg. 01/10/2020) <br>
             and after closed for applications date
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -86,16 +112,22 @@
                 Date prior to open for applications date<br>
                 Date prior to closed for applications date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
-            <td style="border: 1px solid black;">Independent Assessors - Contact Independent assessors</td>
-            <td style="border: 1px solid black; background-color: #218a5c;">
-            Valid Date further in future than open date (eg. 01/10/2020)
-            and after closed for applications date
-            and after closed for shortlisting outcome date
+            <td style="border: 1px solid black;">
+                Independent Assessors - Contact Independent assessors
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black; background-color: #218a5c;">
+                Valid Date further in future than open date (eg. 01/10/2020)
+                and after closed for applications date
+                and after closed for shortlisting outcome date
+            </td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -118,18 +150,22 @@
                 Date prior to closed for applications date<br>
                 Date prior to shortlisting outcome date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
-            Independent Assessors - Independent Assessments return date
+                Independent Assessors - Independent Assessments return date
             </td>
             <td style="border: 1px solid black; background-color: #218a5c;">
-            Valid Date further in future than open date (eg. 01/10/2020) and after contact independent assessors date <br>
-            and after closed for applications date<br>
-            and after closed for shortlisting outcome date<br>
+                Valid Date further in future than open date (eg. 01/10/2020) and after contact independent assessors date <br>
+                and after closed for applications date<br>
+                and after closed for shortlisting outcome date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -153,18 +189,22 @@
                 Date prior to closed for applications date<br>
                 Date prior to shortlisting outcome date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
-            Independent Assessors - Independent Assessments hard limit
+                Independent Assessors - Independent Assessments hard limit
             </td>
             <td style="border: 1px solid black; background-color: #218a5c;">
-            Valid Date further in future than open date (eg. 01/10/2020) and after contact independent assessors date <br>
-            and after closed for applications date<br>
-            and after closed for shortlisting outcome date<br>
+                Valid Date further in future than open date (eg. 01/10/2020) and after contact independent assessors date <br>
+                and after closed for applications date<br>
+                and after closed for shortlisting outcome date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -189,20 +229,24 @@
                 Date prior to closed for applications date<br>
                 Date prior to shortlisting outcome date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
                 Eligibility SCC - Eligibility SCC date
             </td>
             <td style="border: 1px solid black; background-color: #218a5c;">
-            Valid Date further in future than open date (eg. 01/10/2020) <br>
-            and after closed for applications date<br>
-            and after closed for shortlisting outcome date<br>
-            and after contact independent assessors date <br>
-            and after closed for IA return/hard limit date<br>
+                Valid Date further in future than open date (eg. 01/10/2020) <br>
+                and after closed for applications date<br>
+                and after closed for shortlisting outcome date<br>
+                and after contact independent assessors date <br>
+                and after closed for IA return/hard limit date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -228,20 +272,24 @@
                 Date prior to closed for applications date<br>
                 Date prior to shortlisting outcome date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
                 Selection Day - Selection day start
             </td>
             <td style="border: 1px solid black; background-color: #218a5c;">
-            Valid Date further in future than open date (eg. 01/10/2020)<br>
-            and after closed for applications date<br>
-            and after closed for shortlisting outcome date<br>
-            and after contact independent assessors date <br>
-            and after closed for IA return/hard limit date<br>
+                Valid Date further in future than open date (eg. 01/10/2020)<br>
+                and after closed for applications date<br>
+                and after closed for shortlisting outcome date<br>
+                and after contact independent assessors date <br>
+                and after closed for IA return/hard limit date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -268,20 +316,24 @@
                 Date prior to shortlisting outcome date<br>
                 Date after selection day end <br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
                 Selection Day - Selection day end
             </td>
             <td style="border: 1px solid black; background-color: #218a5c;">
-            Valid Date further in future than open date (eg. 01/10/2020)<br>
-            and after closed for applications date<br>
-            and after closed for shortlisting outcome date<br>
-            and after contact independent assessors date <br>
-            and after closed for IA return/hard limit date<br>
+                Valid Date further in future than open date (eg. 01/10/2020)<br>
+                and after closed for applications date<br>
+                and after closed for shortlisting outcome date<br>
+                and after contact independent assessors date <br>
+                and after closed for IA return/hard limit date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -303,20 +355,24 @@
                 Date prior to shortlisting outcome date<br>
                 Date prior to selection day start <br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
                 Selection Day - Selection day start
             </td>
             <td style="border: 1px solid black; background-color: #218a5c;">
-            Valid Date further in future than open date (eg. 01/10/2020)<br>
-            and after closed for applications date<br>
-            and after closed for shortlisting outcome date<br>
-            and after contact independent assessors date <br>
-            and after closed for IA return/hard limit date<br>
+                Valid Date further in future than open date (eg. 01/10/2020)<br>
+                and after closed for applications date<br>
+                and after closed for shortlisting outcome date<br>
+                and after contact independent assessors date <br>
+                and after closed for IA return/hard limit date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -343,7 +399,9 @@
                 Date prior to shortlisting outcome date<br>
                 Date after selection day end <br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -356,7 +414,9 @@
                 and after contact independent assessors date <br>
                 and after closed for IA return/hard limit date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -383,7 +443,9 @@
                 Date prior to shortlisting outcome date<br>
                 Date prior to selection day start <br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -392,13 +454,17 @@
             <td style="border: 1px solid black; background-color: #218a5c;">
                 Valid string<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 Only numbers<br>
                 Only special chars<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -411,7 +477,9 @@
                 and after contact independent assessors date <br>
                 and after closed for IA return/hard limit date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -439,7 +507,9 @@
                 Date prior to shortlisting outcome date<br>
                 Date prior to selection day start <br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -453,7 +523,9 @@
                 and after closed for IA return/hard limit date<br>
                 and after Character Checks request date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -481,7 +553,9 @@
                 Date prior to shortlisting outcome date<br>
                 Date prior to selection day start <br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -495,7 +569,9 @@
                 and after closed for IA return/hard limit date<br>
                 and after Character Checks request/return dates<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -524,7 +600,9 @@
                 Date prior to selection day start<br>
                 Date prior to Character Checks request/return dates<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -539,7 +617,9 @@
                 and after Character Checks request/return dates<br>
                 and after Statutory consultation date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -568,7 +648,9 @@
                 Date prior to Character Checks request/return dates<br>
                 Date prior to Statutory consultation date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -584,7 +666,9 @@
                 and after Statutory consultation date<br>
                 and after Character and SCC date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -610,7 +694,9 @@
                 Date prior to Statutory consultation date<br>
                 Date prior to Character and SCC date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -627,7 +713,9 @@
                 and after Character and SCC date<br>
                 and after Final outcome date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -658,7 +746,9 @@
                 Date prior to Character and SCC date<br>
                 Date prior to Final outcome date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -676,7 +766,9 @@
                 and after Final outcome date<br>
                 and after Second stage start date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -708,7 +800,9 @@
                 Date prior to Final outcome date<br>
                 Date prior to Second stage start date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -726,7 +820,9 @@
                 and after Final outcome date<br>
                 and after Second stage start date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -759,7 +855,9 @@
                 Date prior to Final outcome date<br>
                 Date prior to Second stage start date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -777,7 +875,9 @@
                 and after Final outcome date<br>
                 and after Second stage start/end date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -810,7 +910,9 @@
                 Date prior to Final outcome date<br>
                 Date prior to Second stage start/end date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -828,7 +930,9 @@
                 and after Final outcome date<br>
                 and after Second stage start/end date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Empty value<br>
                 <br>
@@ -856,7 +960,9 @@
                 Date prior to Final outcome date<br>
                 Date prior to Second stage start/end date<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
         <tr>
             <td style="border: 1px solid black;">
@@ -867,12 +973,16 @@
                 Click when not all fields are filled<br>
                 Click when no fields are filled<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
             <td style="border: 1px solid black; background-color: #8a2621;">
                 Double click<br>
                 spam click<br>
             </td>
-            <td style="border: 1px solid black;">[ ]</td>
+            <td style="border: 1px solid black;">
+                [ ]
+            </td>
         </tr>
     </tbody>
 </table>
