@@ -4,7 +4,7 @@ We aim to release changes early and often so have a daily release cycle.
 
 Every week day at midday we carry out the following steps:
 
-## Finish the current release
+## 1. Finish the current release
 
 Providing the current release has been reviewed and approved by the QA team we finish the release and deploy to production using the following commands 
     
@@ -36,7 +36,7 @@ Finally we post release notes to Slack using the following format
 - #124 Add log out button to header
 ```
 
-## Start the next release
+## 2. Start the next release
 
 In zenhub we look at the "Ready for release" column to identify which issues are ready to be released.
 
