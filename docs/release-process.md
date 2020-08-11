@@ -6,7 +6,7 @@ Every week day at midday we carry out the following steps:
 
 ## Finish the current release
 
-Providing the current release has been reviewed and approved by the QA team we finish off the release and deploy to production using the following commands 
+Providing the current release has been reviewed and approved by the QA team we finish the release and deploy to production using the following commands 
     
 ```
 git hf update
@@ -75,8 +75,9 @@ Finally we post release notes to Slack using the following format
 
 ## Future refinement
 
-The above process lends itself to refinement and we are considering the following:
+The above process lends itself to refinement are considering options such as:
 
 - Automate/script the above process as is
-- Move away from the 'git flow' command line model and perhaps have our CI tool hook into tag events (e.g v1.2.3-rc1 deploys to staging, v1.2.3 deploys to production)
-- Consider alternatives to CircleCI such as Github Actions and Google Cloud Build
+- Move away from the above command line model and perhaps have our CI tool hook into tag events (e.g v1.2.3-rc1 deploys to staging, v1.2.3 deploys to production)
+- Replacing CircleCI with alternatives such as Github Actions and Google Cloud Build
+
