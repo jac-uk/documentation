@@ -6,7 +6,7 @@ We are currently updating our documentation and bringing it together in one plac
 - Architecture
   - [Overview](architecture/overview.md)
   - [Diagrams](architecture/index.md)
-  - Decision Register
+  - [Decisions](architecture/decisions/index.md)
 - Developer Guide
   - Welcome to JAC Digital team
   - Working on tasks
