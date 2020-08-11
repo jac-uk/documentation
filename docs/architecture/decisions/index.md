@@ -4,7 +4,7 @@ This is a record of architectural decisions made during the development of the
 JAC Digital Platform.
 
 To understand why we are recording decisions and how we are doing it, please
-see [ADR-000](000-Record-Architecture-Decisions.md)
+see [ADR-0001](0001-record-architecture-decisions.md)
 
 ## Table of contents
 * [✅ 1. Record architecture decisions](0001-record-architecture-decisions.md)
