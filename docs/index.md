@@ -11,7 +11,7 @@ We are currently updating our documentation and bringing it together in one plac
   - Welcome to JAC Digital team
   - Working on tasks
   - [Git commands](git-commands.md)
-  - Release process
+  - [Release process](release-process.md)
 - Testing
   - Testing policy
   - Test scripts
