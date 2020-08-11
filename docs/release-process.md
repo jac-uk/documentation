@@ -22,7 +22,7 @@ We provide a list of the issues in the release tag message using the following f
 
 _Note: there's a single space at the start of each line so they're not regarded as comments (which start with #)._
 
-When CircleCI has finished deploying the release to production we update the relevant issue in zenhub, ensuring each issue:
+When CircleCI has finished deploying the release to production we update the relevant issues in zenhub ensuring each one:
 - [x] Has been tagged with the current sprint milestone
 - [x] Has the correct version number label
 - [x] Is moved to zenhub column "Released"
@@ -57,7 +57,7 @@ We identify the version number of the next release by looking at the current ver
 git hf release start #version-number#
 ```
 
-When CircleCI has finished deploying the release to staging we update the relevant issues in zenhub, ensuring each issue:
+When CircleCI has finished deploying the release to staging we update the relevant issues in zenhub ensuring each one:
 - [x] Has been tagged with the current sprint milestone
 - [x] Has the correct version number label
 - [x] Is moved to zenhub column "Ready for review"
