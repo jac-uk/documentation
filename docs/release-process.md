@@ -75,7 +75,7 @@ Finally we post release notes to Slack using the following format
 
 ## Future refinement
 
-The above process lends itself to refinement are considering options such as:
+The above process lends itself to refinement and we are considering options such as:
 
 - Automate/script the above process as is
 - Move away from the above command line model and perhaps have our CI tool hook into tag events (e.g v1.2.3-rc1 deploys to staging, v1.2.3 deploys to production)
