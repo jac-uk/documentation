@@ -1,12 +1,19 @@
 # Architecture Decision Records
 
+This is a record of architectural decisions made during the development of the
+JAC Digital Platform.
+
+To understand why we are recording decisions and how we are doing it, please
+see [ADR-000](000-Record-Architecture-Decisions.md)
+
+## Table of contents
 * [✅ 1. Record architecture decisions](0001-record-architecture-decisions.md)
 * [🤔 2. Review existing architecture](0002-review-existing-architecture.md)
 * [🤔 3. Use Firebase/GCP](0003-use-firebase-gcp.md)
 
+---
 
-### Statuses:
-
+#### Statuses:
 * Proposed: 🤔
 * Accepted: ✅
 * Rejected: ❌
