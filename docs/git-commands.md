@@ -1,7 +1,7 @@
 # Git commands
 
 
-### Getting started
+## Getting started
 
 We currently follow the [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/) model and are using [Hub Flow](https://datasift.github.io/gitflow/TheHubFlowTools.html) extensions to assist with this. 
 
@@ -27,7 +27,7 @@ git hf update
 ```
 
 
-### Working on features
+## Working on features
 
 
 Start working on a new feature
@@ -62,7 +62,7 @@ Tips:
 
 
 
-### Naming features
+#### Naming features
 
 Use [kebab-case](https://en.wiktionary.org/wiki/kebab_case#English) and name your feature with a reference number from GitHub. Choose the reference number of the primary issue you are working on.
 
@@ -70,7 +70,9 @@ e.g. a fictional feature might be `123-add-reset-button`
 
 
 
-### Creating a release
+## Releases
+
+Release branches are based off of `develop` and are deployed to staging.
 
 Start a release branch
 ```
@@ -80,12 +82,14 @@ git hf release start ##version-number##
 
 Increment the version number in `package.json` accordingly then test and fix until the release is ready
 
-Finish the release
+Finishing the release will result in the changes being deployed to production and merged into `master` (and `develop`)
 ```
 git hf release finish ##version-number##
 ```
 
-### Creating a hot fix
+## Hot fixes
+
+Hotfix branches are based off of `master` and deployed straight to production
 
 Start a new hotfix branch
 ```
@@ -95,7 +99,7 @@ git hf hotfix start ##version-number##
 
 Increment the version number in `package.json` accordingly
 
-Finish the hotfix
+Finish the hotfix will result in the changes being merged into `master` and `develop`
 ```
 git hf hotfix finish ##version-number##
 ```
