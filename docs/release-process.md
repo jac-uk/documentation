@@ -10,14 +10,14 @@ Providing the current release has been reviewed and approved by the QA team we f
     
 ```
 git hf update
-git hf release finish #version-number#
+git hf release finish [VERSION]
 ```
 
 We provide a list of the issues in the release tag message using the following format
    
 ``` 
-  #123 Add cancel button to sign up page
-  #124 Add log out button to header
+ #123 Add cancel button to sign up page
+ #124 Add log out button to header
 ```
 
 _Note: there's a single space at the start of each line so they're not regarded as comments (which start with #)._
@@ -27,14 +27,15 @@ When CircleCI has finished deploying the release to production we update the rel
 - [x] Has the correct version number label
 - [x] Is moved to zenhub column "Released"
 
-Finally we post release notes to Slack using the following format
-```
-@here the following changes have been released to production:
+Finally we post release notes to Slack using the following format:
 
-#Project# #Version#
-- #123 Add cancel button to sign up page
-- #124 Add log out button to header
-```
+> @channel version **[VERSION]** has been released to **[APP]** production
+>
+> https://**[APP]**.judicialappointments.digital/
+>
+> * #123 Add cancel button to sign up page
+> * #124 Add log out button to header
+
 
 ## 2. Start the next release
 
@@ -42,8 +43,8 @@ In zenhub we look at the "Ready for release" column to identify which issues are
 
 We generate release notes in the following format
 ```
-  #123 Add cancel button to sign up page
-  #124 Add log out button to header
+ #123 Add cancel button to sign up page
+ #124 Add log out button to header
 ```
 _Note the space at the start of each line_
 
@@ -54,22 +55,24 @@ git hf update
 
 We identify the version number of the next release by looking at the current version in `package.json` and then run the command
 ```
-git hf release start #version-number#
+git hf release start [VERSION]
 ```
+Then update `package.json` version to match.
 
 When CircleCI has finished deploying the release to staging we update the relevant issues in zenhub ensuring each one:
 - [x] Has been tagged with the current sprint milestone
-- [x] Has the correct version number label
+- [x] Has the correct version number label ("**[APP]**: **[VERSION]**" in `#ff9933`, labels have to be created in the relevant repository if they don't exist)
 - [x] Is moved to zenhub column "Ready for review"
 
-Finally we post release notes to Slack using the following format
-```
-@here the following changes have been released to staging and are ready for review:
 
-#Project# #Version#
-- #123 Add cancel button to sign up page
-- #124 Add log out button to header
-```
+Finally we post release notes to Slack using the following format:
+
+> @channel version **[VERSION]** has been released to **[APP]** staging and following changes are ready for review:
+>
+> https://**[APP]**-staging.judicialappointments.digital/
+>
+> * #123 Add cancel button to sign up page
+> * #124 Add log out button to header
 
 ---
 
