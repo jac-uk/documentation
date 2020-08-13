@@ -27,7 +27,7 @@ When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished de
 - [x] Has the correct version number label
 - [x] Is moved to zenhub column "Released"
 
-Finally we post release notes to Slack using the following format:
+Finally we post release notes to Slack channel [SLACK_CHANNEL_NAME] using the following format:
 
 > @channel version **[VERSION]** has been released to **[APP]** production
 >
@@ -39,7 +39,7 @@ Finally we post release notes to Slack using the following format:
 
 ## 2. Start the next release
 
-In zenhub we look at the "Ready for release" column to identify which issues are ready to be released.
+In zenhub (https://app.zenhub.com/workspaces/platform-development-5ea838cd2aec471eb6d14139/board) we look at the "Ready for release" column to identify which issues are ready to be released.
 
 We generate release notes in the following format
 ```
@@ -59,13 +59,13 @@ git hf release start [VERSION]
 ```
 Then update `package.json` version to match.
 
-When CircleCI has finished deploying the release to staging we update the relevant issues in zenhub ensuring each one:
+When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished deploying the release to staging we update the relevant issues in zenhub ensuring each one:
 - [x] Has been tagged with the current sprint milestone
 - [x] Has the correct version number label ("**[APP]**: **[VERSION]**" in `#ff9933`, labels have to be created in the relevant repository if they don't exist)
 - [x] Is moved to zenhub column "Ready for review"
 
 
-Finally we post release notes to Slack using the following format:
+Finally we post release notes to Slack channel [NAME_OF_THE_SLACK_CHANNEL] using the following format:
 
 > @channel version **[VERSION]** has been released to **[APP]** staging and following changes are ready for review:
 >
