@@ -1,7 +1,20 @@
 # Release Process
 
-We aim to release changes early and often so have a daily release cycle.
+# 1.Notes
 
+## Frequency
+We aim to release changes early and often so have a daily release cycle that starts and ends at midday. 
+
+
+## Versioning
+We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATCH** adapted to our needs
+
+MAJOR revision (new UI, lots of new features, conceptual change, etc.) - we don't change this very often
+MINOR revision (maybe a change to a search box, 1 feature added, collection of bug fixes) - basically every daily release we increment this number
+PATCH - bugfix - Whenever we do a hotfix, we increment this number between daily releases
+
+
+# 2. Release Process
 Every week day at midday we carry out the following steps:
 
 ## 1. Finish the current release
@@ -11,6 +24,10 @@ Providing the current release has been reviewed and approved by the QA team we f
 ```
 git hf update
 git hf release finish [VERSION]
+```
+or for a hotfix
+```
+git hf hotfix finish [VERSION]
 ```
 
 We provide a list of the issues in the release tag message using the following format
@@ -30,6 +47,7 @@ When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished de
 Finally we post release notes to Slack channel **#digital-team** using the following format:
 
 > @channel version **[VERSION]** has been released to **[APP]** production
+> 2 issues / 16.5 sp
 >
 > https://**[APP]**.judicialappointments.digital/
 >
@@ -57,6 +75,10 @@ We identify the version number of the next release by looking at the current ver
 ```
 git hf release start [VERSION]
 ```
+or for a hotfix
+```
+git hf hotfix start [VERSION]
+```
 Then update `package.json` version to match.
 
 When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished deploying the release to staging we update the relevant issues in zenhub ensuring each one:
@@ -68,6 +90,7 @@ When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished de
 Finally we post release notes to Slack channel **#digital-team** using the following format:
 
 > @channel version **[VERSION]** has been released to **[APP]** staging and following changes are ready for review:
+> 2 issues / 16.5 sp
 >
 > https://**[APP]**-staging.judicialappointments.digital/
 >
