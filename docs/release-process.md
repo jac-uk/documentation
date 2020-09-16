@@ -27,7 +27,7 @@ When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished de
 - [x] Has the correct version number label
 - [x] Is moved to zenhub column "Released"
 
-Finally we post release notes to Slack channel [SLACK_CHANNEL_NAME] using the following format:
+Finally we post release notes to Slack channel **#digital-team** using the following format:
 
 > @channel version **[VERSION]** has been released to **[APP]** production
 >
@@ -65,7 +65,7 @@ When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished de
 - [x] Is moved to zenhub column "Ready for review"
 
 
-Finally we post release notes to Slack channel [NAME_OF_THE_SLACK_CHANNEL] using the following format:
+Finally we post release notes to Slack channel **#digital-team** using the following format:
 
 > @channel version **[VERSION]** has been released to **[APP]** staging and following changes are ready for review:
 >
