@@ -9,9 +9,12 @@ We aim to release changes early and often so have a daily release cycle that sta
 ## Versioning
 We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATCH** adapted to our needs
 
-MAJOR revision (new UI, lots of new features, conceptual change, etc.) - we don't change this very often
-MINOR revision (maybe a change to a search box, 1 feature added, collection of bug fixes) - basically every daily release we increment this number
-PATCH - bugfix - Whenever we do a hotfix, we increment this number between daily releases
+
+**MAJOR** revision (new UI, lots of new features, conceptual change, etc.) - we don't change this very often
+
+**MINOR** revision (maybe a change to a search box, 1 feature added, collection of bug fixes) - basically every daily release we increment this number
+
+**PATCH** - bugfix - Whenever we do a hotfix, we increment this number between daily releases
 
 
 # 2. Release Process
