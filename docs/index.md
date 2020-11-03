@@ -13,8 +13,8 @@ We are currently updating our documentation and bringing it together in one plac
   - [Git commands](git-commands.md)
   - [Release process](release-process.md)
 - Testing
-  - Testing policy
-  - Test scripts
+  - [Testing policy](test-policy.md)
+  - [Test scripts](test-scripts.md)
 - [System status](status.md)
 - Research
   - Github Actions vs CircleCI
