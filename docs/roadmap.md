@@ -7,7 +7,7 @@ On 17 June 2020 we released the MVP for Digital Platform. As well as supporting 
 - Disaster recovery and business continuity actions
 - Tech debt and documentation
 - Testing policy and plans - automated testing wherever possible
-- Automation of GDPR functions (dormant accounts, retention policy and SARs) 
+- Accessibility 
 - Automatic system monitoring and regular maintenance routines
 - Virus scanning 
 
