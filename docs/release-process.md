@@ -22,6 +22,8 @@ Every week day at midday we carry out the following steps:
 
 ## 1. Finish the current release
 
+Check zenhub
+
 Providing the current release has been reviewed and approved by the QA team we finish the release and deploy to production using the following commands 
     
 ```
@@ -32,7 +34,6 @@ or for a hotfix
 ```
 git hf hotfix finish [VERSION]
 ```
-
 We provide a list of the issues in the release tag message using the following format
    
 ``` 
@@ -67,6 +68,9 @@ We generate release notes in the following format
  #123 Add cancel button to sign up page
  #124 Add log out button to header
 ```
+
+- Add these notes to the local `release-notes.md` file in each repo
+
 _Note the space at the start of each line_
 
 To ensure we are up to date with the latest changes we run the following command
