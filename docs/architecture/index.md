@@ -49,4 +49,6 @@ Our functions are grouped as follows:
 
 ## Level 4: Code diagrams
 
-We do not currently have any code diagrams. As a small agile team it is unlikely we will add code diagrams anytime soon.
+**[Here we have some diagrams](character-information.md)** for the Apply part of the platform - Character Information section.
+
+As a small agile team it is unlikely we will add many code diagrams anytime soon.
