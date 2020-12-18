@@ -38,7 +38,7 @@ Our cloud back end services are all based in [Firebase](https://firebase.google.
 
 The following diagrams are aimed at architects and developers and show more detail on the components of the software containers being developed. In particular we identify the key configurables of each cloud-based container.
 
-_Coming soon!_
+**[Character Information section - Apply part of the platform diagrams](character-information.md)**
 
 Our functions are grouped as follows:
 
