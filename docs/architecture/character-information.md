@@ -1,4 +1,4 @@
-# Apply - Character Information Section Diagrams
+### Apply - Character Information Section Diagrams
 
 ![Character Information section flow ](./code-diagrams/flow.png)
 
