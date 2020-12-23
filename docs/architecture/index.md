@@ -45,6 +45,7 @@ Our functions are grouped as follows:
 - **Scheduled Functions** are triggered according to a pre-defined schedule, for example backups are made on an hourly basis.
 
 **[Admin. Judicial Office Handover](judicial-office-handover.md)**
+
 **[Apply. Character Information](character-information.md)**
 
 
