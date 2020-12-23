@@ -38,8 +38,6 @@ Our cloud back end services are all based in [Firebase](https://firebase.google.
 
 The following diagrams are aimed at architects and developers and show more detail on the components of the software containers being developed. In particular we identify the key configurables of each cloud-based container.
 
-**[Character Information section - Apply part of the platform diagrams](character-information.md)**
-
 Our functions are grouped as follows:
 
 - **Background Functions** are automatically triggered when defined events happen, for example when a candidate applies for a vacancy
@@ -49,4 +47,6 @@ Our functions are grouped as follows:
 
 ## Level 4: Code diagrams
 
-We do not currently have any code diagrams. As a small agile team it is unlikely we will add code diagrams anytime soon.
+As a small agile team it is unlikely we will add many code diagrams anytime soon.
+
+**[Apply. Character Information](character-information.md)**
