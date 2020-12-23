@@ -44,9 +44,9 @@ Our functions are grouped as follows:
 - **Callable Functions** are primarily triggered from our 'front end' apps, for example when a user wishes to send a batch of emails.
 - **Scheduled Functions** are triggered according to a pre-defined schedule, for example backups are made on an hourly basis.
 
+**[Apply. Character Information](character-information.md)**
+
 
 ## Level 4: Code diagrams
 
 As a small agile team it is unlikely we will add many code diagrams anytime soon.
-
-**[Apply. Character Information](character-information.md)**
