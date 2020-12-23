@@ -44,6 +44,7 @@ Our functions are grouped as follows:
 - **Callable Functions** are primarily triggered from our 'front end' apps, for example when a user wishes to send a batch of emails.
 - **Scheduled Functions** are triggered according to a pre-defined schedule, for example backups are made on an hourly basis.
 
+**[Admin. Judicial Office Handover](judicial-office-handover.md)**
 **[Apply. Character Information](character-information.md)**
 
 
