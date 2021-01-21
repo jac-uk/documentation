@@ -48,7 +48,7 @@ When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished de
 - [x] Has the correct version number label
 - [x] Is moved to zenhub column "Released"
 
-Finally we post release notes to Slack channel **#digital-team** using the following format:
+Post these release notes to Slack channel **#digital-team** using the following format:
 
 > @channel version **[VERSION]** has been released to **[APP]** production
 > 2 issues / 16.5 sp
@@ -58,6 +58,7 @@ Finally we post release notes to Slack channel **#digital-team** using the follo
 > * #123 Add cancel button to sign up page
 > * #124 Add log out button to header
 
+Finally add the same message to the respective apply/admin section of the release notes email.
 
 ## 2. Start the next release
 
