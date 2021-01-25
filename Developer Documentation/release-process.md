@@ -12,7 +12,7 @@ We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATC
 
 **MAJOR** revision (new UI, lots of new features, conceptual change, etc.) - we don't change this very often
 
-**MINOR** revision (maybe a change to a search box, 1 feature added, collection of bug fixes) - basically every daily release we increment this number
+### **MINOR** revision (maybe a change to a search box, 1 feature added, collection of bug fixes) - basically every daily release we increment this number
 
 **PATCH** - bugfix - Whenever we do a hotfix, we increment this number between daily releases
 
@@ -29,10 +29,6 @@ Providing the current release has been reviewed and approved by the QA team we f
 ```
 git hf update
 git hf release finish [VERSION]
-```
-or for a hotfix
-```
-git hf hotfix finish [VERSION]
 ```
 We provide a list of the issues in the release tag message using the following format
    
@@ -81,10 +77,6 @@ git hf update
 We identify the version number of the next release by looking at the current version in `package.json` and then run the command
 ```
 git hf release start [VERSION]
-```
-or for a hotfix
-```
-git hf hotfix start [VERSION]
 ```
 Then update `package.json` version to match.
 
