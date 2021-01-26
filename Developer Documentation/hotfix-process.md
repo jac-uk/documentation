@@ -54,7 +54,7 @@ Create a PR on github for the branch you have made, requested changes are merged
 ---
 ## 5. Finish the hotfix
 
-Pushed made to a hotfix instantly begin the process of being deployed to production. 
+Pushes made to a hotfix instantly begin the process of being deployed to production. 
 
 When finished, these changes will also be deployed to develop.
 
