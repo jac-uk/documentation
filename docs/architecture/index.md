@@ -38,15 +38,17 @@ Our cloud back end services are all based in [Firebase](https://firebase.google.
 
 The following diagrams are aimed at architects and developers and show more detail on the components of the software containers being developed. In particular we identify the key configurables of each cloud-based container.
 
-_Coming soon!_
-
 Our functions are grouped as follows:
 
 - **Background Functions** are automatically triggered when defined events happen, for example when a candidate applies for a vacancy
 - **Callable Functions** are primarily triggered from our 'front end' apps, for example when a user wishes to send a batch of emails.
 - **Scheduled Functions** are triggered according to a pre-defined schedule, for example backups are made on an hourly basis.
 
+**[Admin. Judicial Office Handover](judicial-office-handover.md)**
+
+**[Apply. Character Information](character-information.md)**
+
 
 ## Level 4: Code diagrams
 
-We do not currently have any code diagrams. As a small agile team it is unlikely we will add code diagrams anytime soon.
+As a small agile team it is unlikely we will add many code diagrams anytime soon.
