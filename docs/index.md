@@ -12,6 +12,7 @@ We are currently updating our documentation and bringing it together in one plac
   - Working on tasks
   - [Git commands](git-commands.md)
   - [Release process](release-process.md)
+  - [Hotfix process](hotfix-process.md)
 - Testing
   - [Testing policy](testing-policy.md)
   - [Test scripts](test-scripts.md)
