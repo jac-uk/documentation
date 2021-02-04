@@ -1,4 +1,4 @@
-# Panels Data Model
+# Data Model: Panels
 
 ## Collection: Panels
 A `Panels` document contains the following fields:
