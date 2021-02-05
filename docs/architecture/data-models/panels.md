@@ -14,8 +14,8 @@ A `Panels` document contains the following fields:
 The following fields are added to the `ApplicationRecords` document in order to store the relationship with `Panels`.
 ```
   panelIds: {
-    sift: String,
-    selection: String,
+    sift: String,  // Id of Panels document of type 'sift'
+    selection: String,  // Id of Panels document of type 'selection'
   }
 ```
 Each `type` of panel will have an entry in the `panelIds` map. These entries will be initialised to an empty string (to indicate the application has not been assigned to a panel) and eventually assigned the `id` of a `Panels` document.
