@@ -7,6 +7,8 @@ A `Panels` document contains the following fields:
   name: String,
   type: String ('sift', 'selection'),
   members: [ { fullName: String, email: String, phone: String, title: String } ],
+  dateFrom: Timestamp,
+  dateTo: Timestamp,
   status: String ('draft', 'created', 'completed'),
 ```
 
