@@ -1,4 +1,3 @@
-# ** *update on first use* **
 # Hotfixes
 
 ## Frequency
