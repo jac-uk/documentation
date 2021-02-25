@@ -2,3 +2,4 @@ remote_theme: pmarsceill/just-the-docs
 title: [JAC Digital Platform]
 description: [Documentation]
 color_scheme: foo
+search_enabled: false
