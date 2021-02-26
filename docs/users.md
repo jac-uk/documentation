@@ -22,7 +22,7 @@ A referee nominated by the candidate
 
 ## Future research
 
-In addition to the above we plan to extend our service to benefit the following users
+We will soon extend our service to benefit the following users
 
 ### Panelists
 
