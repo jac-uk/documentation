@@ -6,7 +6,6 @@ nav_order: 1
 
 We are currently updating our documentation and bringing it together in one place.
 
-- [Roadmap](roadmap.md)
 - Architecture
   - [Overview](architecture/overview.md)
   - [Diagrams](architecture/index.md)
@@ -18,9 +17,10 @@ We are currently updating our documentation and bringing it together in one plac
   - [Git commands](git-commands.md)
   - [Release process](release-process.md)
   - [Hotfix process](hotfix-process.md)
+- Research
+  - Github Actions vs CircleCI
 - Testing
   - [Testing policy](testing-policy.md)
   - [Test scripts](test-scripts.md)
 - [System status](status.md)
-- Research
-  - Github Actions vs CircleCI
+- [Roadmap](roadmap.md)
