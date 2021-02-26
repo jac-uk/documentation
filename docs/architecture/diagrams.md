@@ -1,6 +1,7 @@
 ---
 nav_order: 2
 parent: Architecture
+title: Diagrams
 ---
 
 # Architecture Diagrams

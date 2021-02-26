@@ -3,9 +3,7 @@ nav_order: 3
 parent: Developer guide
 ---
 
-# Release Process
-
-# 1.Notes
+# Deployment
 
 ## Frequency
 We aim to release changes early and often so have a daily release cycle that starts and ends at midday.
@@ -17,12 +15,12 @@ We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATC
 
 **MAJOR** revision (new UI, lots of new features, conceptual change, etc.) - we don't change this very often
 
-### **MINOR** revision (maybe a change to a search box, 1 feature added, collection of bug fixes) - basically every daily release we increment this number
+**MINOR** revision (maybe a change to a search box, 1 feature added, collection of bug fixes) - basically every daily release we increment this number
 
 **PATCH** - bugfix - Whenever we do a hotfix, we increment this number between daily releases
 
 
-# 2. Release Process
+## Release Process
 Every week day at midday we carry out the following steps:
 
 ## 1. Finish the current release

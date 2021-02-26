@@ -1,6 +1,7 @@
 ---
 nav_order: 4
 parent: Architecture
+title: Decisions
 ---
 # Architecture Decision Records
 

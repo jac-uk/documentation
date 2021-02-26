@@ -1,6 +1,7 @@
 ---
 nav_order: 1
 parent: Developer guide
+title: Welcome
 ---
 
 # Welcome to JAC Digital
