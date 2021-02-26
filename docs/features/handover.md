@@ -6,3 +6,5 @@ parent: Features
 # Handover
 
 [tbc]
+
+![Judicial Office handover](../architecture/jac-digital-platform-architecture-Component.svg)
