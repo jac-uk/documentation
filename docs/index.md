@@ -1,4 +1,8 @@
-# JAC documentation
+---
+layout: default
+title: Home
+nav_order: 1
+---
 
 We are currently updating our documentation and bringing it together in one place.
 
