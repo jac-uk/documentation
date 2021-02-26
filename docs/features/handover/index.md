@@ -18,8 +18,8 @@ Results of the transfer will be presented on screen to the user.
 
 
 This will be configured under two environments:
-- Staging to test integration and new features
-- Production for the live system.
+- **Staging** to test integration and new features
+- **Production** for the live system.
 
 ![Judicial Office handover](./jac-digital-platform-architecture-Component%20-%20JO%20Handover.svg)
 
