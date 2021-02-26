@@ -7,6 +7,7 @@ title: Diagrams
 # Architecture Diagrams
 
 We are loosely following the [C4 Model](https://c4model.com) for diagramming our software architecture.
+We use [diagrams.net](https://www.diagrams.net) to create and edit our diagrams.
 
 ## <a name="context"></a> Level 1: System Context diagram
 
@@ -49,8 +50,6 @@ Our functions are grouped as follows:
 - **Background Functions** are automatically triggered when defined events happen, for example when a candidate applies for a vacancy
 - **Callable Functions** are primarily triggered from our 'front end' apps, for example when a user wishes to send a batch of emails.
 - **Scheduled Functions** are triggered according to a pre-defined schedule, for example backups are made on an hourly basis.
-
-**[Admin. Judicial Office Handover](judicial-office-handover.md)**
 
 **[Apply. Character Information](character-information.md)**
 
