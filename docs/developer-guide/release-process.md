@@ -42,7 +42,7 @@ We provide a list of the issues in the release tag message using the following f
 
 _Note: there's a single space at the start of each line so they're not regarded as comments (which start with #)._
 
-When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished deploying the release to production we update the relevant issues in zenhub ensuring each one:
+When [CircleCI](https://app.circleci.com/pipelines/github/jac-uk) has finished deploying the release to production we update the relevant issues in zenhub ensuring each one:
 - [x] Has been tagged with the current sprint milestone
 - [x] Has the correct version number label
 - [x] Is moved to zenhub column "Released"
@@ -61,7 +61,7 @@ Finally add the same message to the respective apply/admin section of the releas
 
 ## 2. Start the next release
 
-In zenhub (https://app.zenhub.com/workspaces/platform-development-5ea838cd2aec471eb6d14139/board) we look at the "Ready for release" column to identify which issues are ready to be released.
+In [zenhub](https://app.zenhub.com/workspaces/platform-development-5ea838cd2aec471eb6d14139/board) we look at the "Ready for release" column to identify which issues are ready to be released.
 
 We generate release notes in the following format
 ```
@@ -84,9 +84,9 @@ git hf release start [VERSION]
 ```
 Then update `package.json` version to match.
 
-When CircleCI (https://app.circleci.com/pipelines/github/jac-uk) has finished deploying the release to staging we update the relevant issues in zenhub ensuring each one:
+When [CircleCI](https://app.circleci.com/pipelines/github/jac-uk) has finished deploying the release to staging we update the relevant issues in zenhub ensuring each one:
 - [x] Has been tagged with the current sprint milestone
-- [x] Has the correct version number label ("**[APP]**: **[VERSION]**" in `#ff9933`, labels have to be created in the relevant repository if they don't exist)
+- [x] Has the correct version number label ("[APP]: [VERSION]" in `#ff9933`, labels have to be created in the relevant repository if they don't exist)
 - [x] Is moved to zenhub column "Ready for review"
 
 
