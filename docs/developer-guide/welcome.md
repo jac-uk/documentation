@@ -8,7 +8,6 @@ title: Welcome
 
 ![JAC values](images/jac-values.png)
 
-
 ## Tools we use
 
 We make use of the following tools:
@@ -17,3 +16,7 @@ We make use of the following tools:
 - CircleCI for continuous integration and deployment
 - Git Flow model for organising our source code, releases and hotfixes
 - Hub Flow scripts to help us follow git flow model using github
+
+## Our standards
+
+We follow these [software development standards and guidelines.](https://docs.google.com/document/d/1nf4zyu-QTZmwqNylOQjZq2dTVeVSQBRlZNj3uEyerRc)
