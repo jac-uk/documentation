@@ -8,7 +8,7 @@ _DRAFT: we need to include more detail!_
 
 ## Personas
 
-We are currently focused on the following personas
+Our service is designed to benefit the following users
 
 ### JAC Staff
 Member of the JAC team
@@ -22,7 +22,7 @@ A referee nominated by the candidate
 
 ## Future research
 
-We are researching and will soon focus on the following personas
+In addition to the above we plan to extend our service to benefit the following users
 
 ### Panelists
 
