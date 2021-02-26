@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 # Data Model: Exercise and Vacancy
 
 A new field `_applicationVersion` was added to these data models to enable support for both old and new versions of the application form.

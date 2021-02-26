@@ -1,9 +1,11 @@
+---
+nav_order: 2
+parent: Developer guide
+---
 # Git commands
-
-
 ## Getting started
 
-We currently follow the [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/) model and are using [Hub Flow](https://datasift.github.io/gitflow/TheHubFlowTools.html) extensions to assist with this. 
+We currently follow the [Git Flow](https://nvie.com/posts/a-successful-git-branching-model/) model and are using [Hub Flow](https://datasift.github.io/gitflow/TheHubFlowTools.html) extensions to assist with this.
 
 
 Install Hub Flow as follows

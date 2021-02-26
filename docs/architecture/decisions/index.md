@@ -1,3 +1,7 @@
+---
+nav_order: 4
+parent: Architecture
+---
 # Architecture Decision Records
 
 This is a record of architectural decisions made during the development of the

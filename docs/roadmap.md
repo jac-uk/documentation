@@ -1,3 +1,6 @@
+---
+nav_order: 7
+---
 # Roadmap
 
 On 17 June 2020 we released the MVP for Digital Platform. As well as supporting the live system our focus is now in the following areas:
@@ -7,9 +10,9 @@ On 17 June 2020 we released the MVP for Digital Platform. As well as supporting 
 - Disaster recovery and business continuity actions
 - Tech debt and documentation
 - Testing policy and plans - automated testing wherever possible
-- Accessibility 
+- Accessibility
 - Automatic system monitoring and regular maintenance routines
-- Virus scanning 
+- Virus scanning
 
 ## Admin Functionality
 
@@ -19,14 +22,14 @@ On 17 June 2020 we released the MVP for Digital Platform. As well as supporting 
 - Ability to grade candidates and produce a merit list - ie list of highest to lowest scoring candidates
 - Enhancements to character and eligibility reports
 - Final administrative reports - working preferences
-- Automated emails via notify 
-- Final exercise type workflows 
+- Automated emails via notify
+- Final exercise type workflows
 - Increased notes facility
 
 ## Candidate functionality
 
 - Review of existing provision
-- Enhance functionality for candidates 
+- Enhance functionality for candidates
 - Improve communications with candidate via notifications and status updates on their account
 - Ability for candidates to provide information at various stages of the process
 - Ability for candidate to take an online test via their account

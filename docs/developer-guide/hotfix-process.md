@@ -1,7 +1,11 @@
+---
+nav_order: 4
+parent: Developer guide
+---
 # Hotfixes
 
 ## Frequency
-Hotfixes should be made when there is a high urgency. 
+Hotfixes should be made when there is a high urgency.
 
 ## Versioning
 We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATCH** adapted to our needs
@@ -19,16 +23,16 @@ First ensure you have latest code.
 ```
 git hf update
 ```
-then start a hotfix branch 
+then start a hotfix branch
 ```
 git hf hotfix start [VERSION]
 ```
 bump the patch number in `package.json`
 
 ---
-## *Important* 
+## *Important*
 ### Any changes pushed to a 'hotfix/...' branch will deploy to production.
-### If you make any commits, dont push them to the remote branch 
+### If you make any commits, dont push them to the remote branch
 
 ---
 
@@ -53,7 +57,7 @@ Create a PR on github for the branch you have made, requested changes are merged
 ---
 ## 5. Finish the hotfix
 
-Pushes made to a hotfix instantly begin the process of being deployed to production. 
+Pushes made to a hotfix instantly begin the process of being deployed to production.
 
 When finished, these changes will also be deployed to develop.
 

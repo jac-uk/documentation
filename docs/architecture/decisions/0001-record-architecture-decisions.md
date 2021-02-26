@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 # 1. Record architecture decisions
 
 Date: 2020-08-11

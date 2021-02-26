@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 # 2. Review existing architecture
 
 Date: 2020-08-11

@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 # 3. Use Firebase/GCP
 
 Date: 2020-08-11

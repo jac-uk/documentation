@@ -1,4 +1,14 @@
-# Tools we use
+---
+nav_order: 1
+parent: Developer guide
+---
+
+# Welcome to JAC Digital
+
+![JAC values](images/jac-values.png)
+
+
+## Tools we use
 
 We make use of the following tools:
 - Github Issues for tracking and managing tasks

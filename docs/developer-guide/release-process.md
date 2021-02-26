@@ -1,9 +1,14 @@
+---
+nav_order: 3
+parent: Developer guide
+---
+
 # Release Process
 
 # 1.Notes
 
 ## Frequency
-We aim to release changes early and often so have a daily release cycle that starts and ends at midday. 
+We aim to release changes early and often so have a daily release cycle that starts and ends at midday.
 
 
 ## Versioning
@@ -24,15 +29,15 @@ Every week day at midday we carry out the following steps:
 
 Check zenhub
 
-Providing the current release has been reviewed and approved by the QA team we finish the release and deploy to production using the following commands 
-    
+Providing the current release has been reviewed and approved by the QA team we finish the release and deploy to production using the following commands
+
 ```
 git hf update
 git hf release finish [VERSION]
 ```
 We provide a list of the issues in the release tag message using the following format
-   
-``` 
+
+```
  #123 Add cancel button to sign up page
  #124 Add log out button to header
 ```

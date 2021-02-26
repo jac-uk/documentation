@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 ## Hubflow branch patterns.
 
 - feature/[ticket-number]-[keywords]
