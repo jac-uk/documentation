@@ -1,3 +1,6 @@
+---
+nav_exclude: true
+---
 ### Apply - Character Information Section Diagrams
 
 ![Character Information section flow ](./code-diagrams/flow.png)
