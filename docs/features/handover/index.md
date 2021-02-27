@@ -23,6 +23,11 @@ This will be configured under two environments:
 
 ![Judicial Office handover](./jac-digital-platform-architecture-Component%20-%20JO%20Handover.svg)
 
+## Cloud function with static IP
+The following article outlines how to configure a Cloud Function to have a static IP (range):
+https://cloud.google.com/functions/docs/networking/network-settings#associate-static-ip
+
+
 ## Data
 
 The following fields will be transfered via the eHR ATS API
