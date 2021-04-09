@@ -11,4 +11,4 @@ The data entered into the new applications is stored in `characterInformationV2`
 
 # Data Model: Candidate
 
-The data is stored in `documents/characterInformation` for both old and new applications.
+The data is stored in `documents/characterInformation` for both old and new applications and a new field `_versionNumber` was added to this model. 
