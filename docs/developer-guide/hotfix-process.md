@@ -17,26 +17,8 @@ We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATC
 <strong>**PATCH** - bugfix - Whenever we do a hotfix, we increment this number between daily releases </strong>
 
 # Hotfix Process
-## 1. Start the hotfix
-First ensure you have latest code.
 
-```
-git hf update
-```
-then start a hotfix branch
-```
-git hf hotfix start [VERSION]
-```
-bump the patch number in `package.json`
-
----
-## *Important*
-### Any changes pushed to a 'hotfix/...' branch will deploy to production.
-### If you make any commits, dont push them to the remote branch
-
----
-
-## 2. Make a branch
+## 1. Make a branch
 
 Make a branch off of the hotfix branch you have created
 
@@ -57,26 +39,6 @@ Create a PR on github for the branch you have made, requested changes are merged
 ---
 ## 5. Finish the hotfix
 
-Pushes made to a hotfix instantly begin the process of being deployed to production.
+To be updated
 
-When finished, these changes will also be deployed to develop.
-
-Changes WILL NOT be deployed to staging until the next release.
-
-If there is currently a release branch, rebasing said release branch off of the updated develop branch, following a hotfix, will ensure changes reach staging.
-
-Make sure you are aware of any updates to other branches which could cause merge conflicts.
-
-After the PR has passed review, get the latest code
-```
-git hf update
-```
-and switch to the hotfix branch
-```
-git checkout 'hotfix/[VERSION]'
-```
-then finish the hotfix with
-```
-git hf hotfix finish [VERSION]
-```
 ---
