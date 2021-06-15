@@ -37,9 +37,9 @@ Benefits of the process:
 
 1. Developer takes their next ticket from top of the ‘Current and next sprint’ column moving it to ‘In progress’ or ‘Blocked’ if there is a problem.
 
-2. When developer is ready, they create a new Pull Request and move ticket to ‘Ready for Review’. Their work is automatically deployed to a preview URL. The setting for the preview url is located at the end of the pull request description and can be set to `PREVIEW:OFF, PREVIEW:DEVELOP or PREVIEW:STAGING`
+2. When developer is ready, they create a new Pull Request and move ticket to ‘Ready for Review’. Their work is automatically deployed to a preview URL. The setting for the preview url is located at the end of the pull request description and can be set to `PREVIEW:OFF, PREVIEW:DEVELOP or PREVIEW:STAGING`.
 
-3. We now need exactly one approval each from in-house developers,both contractors, product owner and User Testing Group
+3. We now need exactly one approval each from in-house developers, both contractors, product owner and User Testing Group.
 
 4. If all developers approve changes before PO & UTG, then the ticket can be moved to ‘Code Approved’.
 
@@ -62,8 +62,9 @@ After the release post these release notes to Slack channel **#digital-team** us
 >
 > https://**[APP]**.judicialappointments.digital/
 >
-> * #123 Add cancel button to sign up page
-> * #124 Add log out button to header
+> *#123 Add cancel button to sign up page
+>
+> *#124 Add log out button to header
 
 Finally add the same message to the respective apply/admin section of the release notes email.
 

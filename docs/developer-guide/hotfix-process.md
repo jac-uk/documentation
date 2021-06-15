@@ -8,6 +8,7 @@ parent: Developer guide
 Hotfixes should be made when there is a high urgency.
 
 ## Versioning
+
 We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATCH** adapted to our needs
 
 **MAJOR** revision (new UI, lots of new features, conceptual change, etc.) - we don't change this very often
@@ -20,25 +21,29 @@ We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATC
 
 ## 1. Make a branch
 
-Make a branch off of the hotfix branch you have created
+Find a tag branch where a bug is not present, (for example, previous release branch 0.15.0).
+
+Check out this branch and make a hotfix branch based on the tag branch.
 
 ```
-git checkout -b 'bug/#[ticket-number]-[keywords]'
+git checkout -b 'hotfix/#[ticket-number]-[keywords]'
 ```
-eg. `git checkout -b 'bug/#123-remove-bug'`
+eg. `git checkout -b 'hotfix/1321-fix-title-misspelling'`
 
 ---
-## 3. Commit fixes
+## 2. Commit fixes
 Make necessary changes, check locally, run linting and testing.
 Commit and push to github.
 
 ---
-## 4. Make a Pull Request
+## 3. Make a Pull Request
 Create a PR on github for the branch you have made, requested changes are merged back onto the hotfix branch.
 
 ---
-## 5. Finish the hotfix
+## 4. Finish the hotfix
 
-To be updated
+When all changes are approved, merge the hotfix branch into `master` branch using the manual Action called ‘Deploy to Production’.
+Also, merge hotfix branch into `main` branch.docs/developer-guide/release-process.md
 
+![6](./images/release6.png)
 ---
