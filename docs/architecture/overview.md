@@ -1,3 +1,8 @@
+---
+nav_order: 1
+parent: Architecture
+---
+
 # Overview
 
 The JAC Digital Platform is hosted in [Firebase](https://firebase.google.com) (part of [Google Cloud](https://cloud.google.com)) which provides cloud-based services such as authentication, database, storage, hosting and functions.
@@ -8,6 +13,6 @@ We use [Firestore](https://firebase.google.com/docs/firestore) as our primary cl
 
 We use [Cloud Storage](https://firebase.google.com/docs/storage) to store and serve files. [Storage Security Rules](https://firebase.google.com/docs/storage/security/start) enable us to specify granular access.
 
-We use [Cloud Functions](https://firebase.google.com/docs/functions/) to execute 'back end' code in response to defined triggers. 
+We use [Cloud Functions](https://firebase.google.com/docs/functions/) to execute 'back end' code in response to defined triggers.
 
 We are starting to use services from the wider Google Cloud such as [BigQuery](https://cloud.google.com/bigquery) for custom reports and [AppEngine](https://cloud.google.com/appengine) for our API.

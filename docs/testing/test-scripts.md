@@ -1,3 +1,7 @@
+---
+nav_order: 2
+parent: Testing
+---
 # Test scripts
 
 The tests scripts are located on google docs in the following [folder](https://drive.google.com/drive/u/1/folders/142leRfwBIMZQbmZXivGzhcYrYTUfYUOS):

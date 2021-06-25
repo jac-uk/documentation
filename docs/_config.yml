@@ -1,1 +1,5 @@
-theme: jekyll-theme-minimal
+remote_theme: pmarsceill/just-the-docs
+title: [JAC Digital Docs]
+description: [Documentation]
+color_scheme: jac
+search_enabled: true
