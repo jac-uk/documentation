@@ -42,7 +42,7 @@ Create a PR on github for the branch you have made, requested changes are merged
 ---
 ## 4. Finish the hotfix
 
-When all changes are approved, merge the hotfix branch into `master` branch using the manual Action called ‘Deploy to Production’.
+When all changes are approved, deploy the hotfix branch production environment using the manual Action called ‘.Deploy to Production’.
 Also, merge hotfix branch into `main` branch.docs/developer-guide/release-process.md
 
 ![6](./images/release6.png)
