@@ -1,6 +1,5 @@
 ---
-nav_order: 2
-parent: Developer guide
+nav_exclude: true
 ---
 # Git commands
 ## Getting started
