@@ -25,8 +25,3 @@ When all checks have passed the approved changes are merged into our main codeba
 On staging the changes are manually verified and staging is also checked for regressions.
 
 When all is ok the change will be released to production.
-
-
-
-
-
