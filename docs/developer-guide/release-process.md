@@ -5,10 +5,6 @@ parent: Developer guide
 
 # Deployment
 
-## Frequency
-We aim to release changes early and often so have a daily release cycle that starts and ends at midday.
-
-
 ## Versioning
 We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATCH** adapted to our needs
 
@@ -21,92 +17,55 @@ We use an adaptation of the Semantic Versioning Specification **MAJOR.MINOR.PATC
 
 
 ## Release Process
-Every week day at midday we carry out the following steps:
 
-## 1. Finish the current release
+We use Github Actions with the existing Github UI and follow Github Flow model for organising our source code, releases and hotfixes.
 
-Check zenhub
+![1](./images/release.png)
 
-Providing the current release has been reviewed and approved by the QA team we finish the release and deploy to production using the following commands
+Benefits of the process:
 
-```
-git hf update
-git hf release finish [VERSION]
-```
-We provide a list of the issues in the release tag message using the following format
+* It is simple
+* Early approval per feature
+* Puts control in hands of whole team
+* Can easily be refined
 
-```
- #123 Add cancel button to sign up page
- #124 Add log out button to header
-```
+### Developer workflow
 
-_Note: there's a single space at the start of each line so they're not regarded as comments (which start with #)._
+![2](./images/release2.png)
 
-When [CircleCI](https://app.circleci.com/pipelines/github/jac-uk) has finished deploying the release to production we update the relevant issues in zenhub ensuring each one:
-- [x] Has been tagged with the current sprint milestone
-- [x] Has the correct version number label
-- [x] Is moved to zenhub column "Released"
+![3](./images/release3.png)
 
-Post these release notes to Slack channel **#digital-team** using the following format:
+1. Developer takes their next ticket from top of the ‘Current and next sprint’ column moving it to ‘In progress’ or ‘Blocked’ if there is a problem.
+
+2. When developer is ready, they create a new Pull Request and move ticket to ‘Ready for Review’. Their work is automatically deployed to a preview URL. The setting for the preview url is located at the end of the pull request description and can be set to `PREVIEW:OFF, PREVIEW:DEVELOP or PREVIEW:STAGING`.
+
+3. We now need exactly one approval each from in-house developers, both contractors, product owner and User Testing Group.
+
+4. If all developers approve changes before PO & UTG, then the ticket can be moved to ‘Code Approved’.
+
+5. When approved and merged the change is automatically deployed to Staging.
+
+6. Whenever changes are approved and merged the next draft release is updated.
+
+7. When a draft release is published the changes are automatically deployed to Production.
+
+8. To roll back or forwards to a specific version we use a manual Action called ‘Deploy to Production’.
+
+![5](./images/release5.png)
+
+![6](./images/release6.png)
+
+After the release post these release notes to Slack channel **#digital-team** using the following format:
 
 > @channel version **[VERSION]** has been released to **[APP]** production
 > 2 issues / 16.5 sp
 >
 > https://**[APP]**.judicialappointments.digital/
 >
-> * #123 Add cancel button to sign up page
-> * #124 Add log out button to header
+> *#123 Add cancel button to sign up page
+>
+> *#124 Add log out button to header
 
 Finally add the same message to the respective apply/admin section of the release notes email.
 
-## 2. Start the next release
-
-In [zenhub](https://app.zenhub.com/workspaces/platform-development-5ea838cd2aec471eb6d14139/board) we look at the "Ready for release" column to identify which issues are ready to be released.
-
-We generate release notes in the following format
-```
- #123 Add cancel button to sign up page
- #124 Add log out button to header
-```
-
-- Add these notes to the local `release-notes.md` file in each repo
-
-_Note the space at the start of each line_
-
-To ensure we are up to date with the latest changes we run the following command
-```
-git hf update
-```
-
-We identify the version number of the next release by looking at the current version in `package.json` and then run the command
-```
-git hf release start [VERSION]
-```
-Then update `package.json` version to match.
-
-When [CircleCI](https://app.circleci.com/pipelines/github/jac-uk) has finished deploying the release to staging we update the relevant issues in zenhub ensuring each one:
-- [x] Has been tagged with the current sprint milestone
-- [x] Has the correct version number label ("[APP]: [VERSION]" in `#ff9933`, labels have to be created in the relevant repository if they don't exist)
-- [x] Is moved to zenhub column "Ready for review"
-
-
-Finally we post release notes to Slack channel **#digital-team** using the following format:
-
-> @channel version **[VERSION]** has been released to **[APP]** staging and following changes are ready for review:
-> 2 issues / 16.5 sp
->
-> https://**[APP]**-staging.judicialappointments.digital/
->
-> * #123 Add cancel button to sign up page
-> * #124 Add log out button to header
-
 ---
-
-## Future refinement
-
-The above process lends itself to refinement and we are considering options such as:
-
-- Automate/script the above process as is
-- Move away from the above command line model and perhaps have our CI tool hook into tag events (e.g v1.2.3-rc1 deploys to staging, v1.2.3 deploys to production)
-- Replacing CircleCI with alternatives such as Github Actions and Google Cloud Build
-
