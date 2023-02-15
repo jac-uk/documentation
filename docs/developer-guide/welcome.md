@@ -16,6 +16,8 @@ We make use of the following tools:
 - Github Actions for continuous integration and deployment, releases and hotfixes
 - Github Flow model for organising our source code
 
+Here is a more detailed list of all [software used and owners](https://drive.google.com/drive/folders/1R7XF1fecakMDNR7ZIftSlnu0F5NbUwh7)
+
 ## Our standards
 
 We follow these [software development standards and guidelines.](https://docs.google.com/document/d/1nf4zyu-QTZmwqNylOQjZq2dTVeVSQBRlZNj3uEyerRc)
