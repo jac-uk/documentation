@@ -44,3 +44,21 @@ New starters will be assigned the following permissions
 **Digital Staff** will be added to `JAC Staff Team` which gives write or owner access to all repositories
 
 **Digital Suppliers** will be added to `Digital Suppliers` team which gives write access to our six main repositories
+
+### GovUK Notify
+
+We have the following three api keys for GovUK Notify:
+
+- `Digital Platform - Live`  sends emails to anyone
+- `Digital Platform - Limited`  sends emails to JAC users (of GovUK Notify) only
+- `Digital Platform - Test`  does not send emails
+
+These should be used as follows:
+
+- Production uses `Digital Platform - Live`
+- Staging uses `Digital Platform - Test`
+- Develop uses `Digital Platform - Test`
+
+Developers may temporarily use `Digital Platform - Limited` on develop or staging however must change back to using `Digital Platform - Test`
+
+Keys are stored in `firebase functions:config` and also may temporarily be stored locally in `.env`
