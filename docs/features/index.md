@@ -6,4 +6,4 @@ has_children: true
 
 ## Processing applications
 
-![Sift](../_diagrams/test.drawio.svg)
+![Sift](./sift.svg)
