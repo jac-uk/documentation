@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T09:11:37.247Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/113.0" version="22.0.4" etag="CXUszN3jco7NE7yyYdWl" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T09:35:56.773Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/113.0" etag="uNZTImUrLDAV9HrhTsqv" version="22.0.4" type="github">
   <diagram name="Page-1" id="RBpK9Mjbp5pnCPekTSG0">
-    <mxGraphModel>
+    <mxGraphModel dx="1637" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-PqM6h6Bnyc7UHwB2dMi-1" value="Get started" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#004C99;fontColor=#FFFFFF;strokeColor=none;fontFamily=Khula;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKhula;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PqM6h6Bnyc7UHwB2dMi-2" value="Prepare test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#004C99;fontColor=#FFFFFF;strokeColor=none;fontFamily=Khula;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKhula;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-PqM6h6Bnyc7UHwB2dMi-3" value="Continue" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Khula;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DKhula;fontSize=16;spacingLeft=0;spacingRight=0;" edge="1" parent="1" source="-PqM6h6Bnyc7UHwB2dMi-1" target="-PqM6h6Bnyc7UHwB2dMi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="320" as="sourcePoint" />
+            <mxPoint x="350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
