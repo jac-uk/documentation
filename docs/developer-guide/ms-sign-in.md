@@ -1,8 +1,11 @@
 ## Updating Microsoft sign-in certificates
-<h1>CERTIFICATE NEXT EXPIRES 1/11/2023 </h1>
+<h1>CERTIFICATES NEXT EXPIRE 1/11/2023 </h1>
 
 ### Steps to renew certificate
  - Log-in to [azure portal](https://portal.azure.com) with an account (this will be your microsoft/gov.uk account) which has owner privileges for the JAC azure project.
+   - [ azure active directory / Entra ID ]
+   - App registrations
+   - JAC Admin Portal 
  - under 'Certificates & Secrets'
  - observe currently active secret 
  - In a new tab/window open the [ DEVELOP ] firebase console
@@ -23,5 +26,6 @@
 
 | Date updated | Expiry |
 |--|--|
+| 17/10/23 | 01/10/25  |
 | 25/06/21 | 25/12/21  |
 | 07/12/21 | 01/01/23  |
