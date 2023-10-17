@@ -1,3 +1,10 @@
+---
+nav_order: 4
+parent: Developer guide
+title: Microsoft Azure integration
+---
+
+
 ## Updating Microsoft sign-in certificates
 <h1>CERTIFICATES NEXT EXPIRE 1/10/2025 </h1>
 
