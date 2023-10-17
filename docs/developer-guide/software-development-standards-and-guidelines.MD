@@ -1,3 +1,9 @@
+---
+nav_order: 4
+parent: Developer guide
+title: Coding Standards
+---
+
 ## JAC DIGITAL
 #### General Software Development Standards and Guidelines
 
