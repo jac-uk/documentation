@@ -2,7 +2,7 @@
 <h1>CERTIFICATE NEXT EXPIRES 1/11/2023 </h1>
 
 ### Steps to renew certificate
- - Log-in to azure portal with an account (this will be your microsoft/gov.uk account) which has owner privileges for the JAC azure project.
+ - Log-in to [azure portal](https://portal.azure.com) with an account (this will be your microsoft/gov.uk account) which has owner privileges for the JAC azure project.
  - under 'Certificates & Secrets'
  - observe currently active secret 
  - In a new tab/window open the [ DEVELOP ] firebase console
