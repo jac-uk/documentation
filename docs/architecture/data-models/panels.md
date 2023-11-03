@@ -12,8 +12,15 @@ A `Panels` document contains the following fields:
   members: [ { fullName: String, email: String, phone: String, title: String } ],
   dateFrom: Timestamp,
   dateTo: Timestamp,
+  created: Timestamp,
   status: String ('draft', 'created', 'completed'),
-  applicationsMap: Map,
+  applicationsMap: { <applicationId> => { errors: Array, fileIds: Array } },
+  drive: { driveId: String, folderId: String },
+  members: [ { email: String, fullName: String, phone: String, title: String } ],
+  processing: { current: String, queue: Array, errors: Array },
+  status: String,
+  statusLog: { approved: Timestamp, created: Timestamp, processing: Timestamp },
+  type: String
 ```
 
 ## Relationship: Panels and ApplicationRecords
