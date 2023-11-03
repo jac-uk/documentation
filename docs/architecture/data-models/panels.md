@@ -13,6 +13,7 @@ A `Panels` document contains the following fields:
   dateFrom: Timestamp,
   dateTo: Timestamp,
   status: String ('draft', 'created', 'completed'),
+  applicationsMap: Map,
 ```
 
 ## Relationship: Panels and ApplicationRecords
