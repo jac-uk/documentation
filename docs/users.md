@@ -19,7 +19,7 @@ Interested in becoming a judge
 ### Assessors
 A referee nominated by the candidate
 
-### Panelists
+### Panellists
 A person who sits on a panel to adjuductae on applications
 
 ## Future research
