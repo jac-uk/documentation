@@ -12,6 +12,7 @@ We are currently updating our documentation and bringing it together in one plac
   - [Decisions](architecture/decisions/index.md)
 - Developer Guide
   - [Welcome to JAC Digital team](developer-guide/welcome.md)
+  - [Sprint Planning Process](developer-guide/sprint-planning-process.md)
   - Working on tasks
 <!--  - [Git commands](developer-guide/git-commands.md) -->
   - [Release process](developer-guide/release-process.md)
