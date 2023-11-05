@@ -31,11 +31,11 @@ Benefits of the process:
 
 ### Developer workflow
 
-<a target="_blank" rel="noopener noreferrer" href="/jac-uk/documentation/blob/master/docs/developer-guide/images/release7.png"><img src="/jac-uk/documentation/raw/master/docs/developer-guide/images/release7.png" alt="2" height="50px"></a>
+<a target="_blank" rel="noopener noreferrer" href="/jac-uk/documentation/blob/master/docs/developer-guide/images/release7.png"><img src="./images/release7.png" alt="2" height="50px"></a>
 
-<a target="_blank" rel="noopener noreferrer" href="/jac-uk/documentation/blob/master/docs/developer-guide/images/release8.png"><img src="/jac-uk/documentation/raw/master/docs/developer-guide/images/release8.png" alt="3" height="50px"></a>
+<a target="_blank" rel="noopener noreferrer" href="/jac-uk/documentation/blob/master/docs/developer-guide/images/release8.png"><img src="./images/release8.png" alt="3" height="50px"></a>
 
-<a target="_blank" rel="noopener noreferrer" href="/jac-uk/documentation/blob/master/docs/developer-guide/images/release9.png"><img src="/jac-uk/documentation/raw/master/docs/developer-guide/images/release9.png" alt="4" height="50px"></a>
+<a target="_blank" rel="noopener noreferrer" href="/jac-uk/documentation/blob/master/docs/developer-guide/images/release9.png"><img src="./images/release9.png" alt="4" height="50px"></a>
 
 1. Developer takes their next ticket from top of the ‘Current and next sprint’ column moving it to ‘In progress’ or ‘Blocked’ if there is a problem.
 
