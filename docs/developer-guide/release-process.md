@@ -31,9 +31,11 @@ Benefits of the process:
 
 ### Developer workflow
 
-![2](./images/release2.png)
+![2](./images/release7.png)
 
-![3](./images/release3.png)
+![3](./images/release8.png)
+
+![4](./images/release9.png)
 
 1. Developer takes their next ticket from top of the ‘Current and next sprint’ column moving it to ‘In progress’ or ‘Blocked’ if there is a problem.
 
