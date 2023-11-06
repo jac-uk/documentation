@@ -9,7 +9,11 @@ User Acceptance Testing sessions are run every wednesday afternoon, giving JAC s
 
 Testing takes place on the Develop environment so, prior to the session, data will be setup on the Develop environment to help facilitate the session.
 
-Testing instructions are included in the GitHub pull request but are also copied into a dedicated document per session. The documents are stored in Google Drive at the following location: https://drive.google.com/drive/u/0/folders/1Q9Q7JqpRWoy9P34G0UehGFxl_fRBrY2P
+Testing instructions are included in the GitHub pull request, see below.
+
+![1](./images/user-testing1.png)
+
+Testing instructions are then copied from the pull request into a single dedicated document per session. The documents are stored in Google Drive at the following location: https://drive.google.com/drive/u/0/folders/1Q9Q7JqpRWoy9P34G0UehGFxl_fRBrY2P
 
 A user testing guidance document is also included at: https://docs.google.com/document/d/1ChV93vuGiVvLufgpun7QhM3Li-_RFZVmWaGGVZhkPmY/edit
 
