@@ -18,8 +18,8 @@ We are currently updating our documentation and bringing it together in one plac
 - Research
   - Github Actions vs CircleCI
 - Testing
-  - [User Testing](testing/user-testing.md)
   - [Testing policy](testing/testing-policy.md)
+  - [User Testing](testing/user-testing.md)
   <!-- [Test scripts](testing/test-scripts.md) -->
 - [System status](status.md)
 - [Roadmap](roadmap.md)

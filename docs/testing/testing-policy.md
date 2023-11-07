@@ -1,7 +1,6 @@
 ---
-nav_order: 2
+nav_order: 1
 parent: Testing
-nav_exclude: true
 ---
 # Testing policy
 

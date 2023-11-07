@@ -1,7 +1,6 @@
 ---
-nav_order: 1
+nav_order: 2
 parent: Testing
-nav_exclude: true
 ---
 # User Acceptance Testing
 
