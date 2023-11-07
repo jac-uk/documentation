@@ -20,6 +20,6 @@ We are currently updating our documentation and bringing it together in one plac
 - Testing
   - [User Testing](testing/user-testing.md)
   - [Testing policy](testing/testing-policy.md)
-  - [Test scripts](testing/test-scripts.md)
+  <!-- [Test scripts](testing/test-scripts.md) -->
 - [System status](status.md)
 - [Roadmap](roadmap.md)
