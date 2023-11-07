@@ -41,4 +41,14 @@ After the release post these release notes to Slack channel **#digital-team** us
 
 Finally add the same message to the respective apply/admin section of the release notes email.
 
+## Release Process For JAC-KIT
+
+To release a new version of the JAC-KIT perform the following steps:
+
+1. Ensure your branch is merged into the main branch
+
+2. Run > npm run publish
+
+3. Get the new version number from the command line output and reference it in the package.json file of the application that needs to use it.
+
 ---
