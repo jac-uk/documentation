@@ -53,8 +53,8 @@ Benefits of the process:
 
 2. Developer names the ticket according to the branch. For example:
 
-feature/<issue number>-<hyphenated title of issue>
-hotfix/<issue number>-<hyphenated title of issue>
+feature/\<issue number\>-\<hyphenated title of issue\>
+hotfix/\<issue number\>-\<hyphenated title of issue\>
 
 3. Works begins on coding the feature/bugfix.
 
