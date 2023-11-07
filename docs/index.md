@@ -16,8 +16,8 @@ We are currently updating our documentation and bringing it together in one plac
   - [Software Development Process](developer-guide/software-development-process.md)
   - [Release process](developer-guide/release-process.md)
   - [Hotfix process](developer-guide/hotfix-process.md)
-  - [Configuration](configuration.md)
-  - [Generate Preview Urls](generate-preview-urls.md)
+  - [Configuration](developer-guide/configuration.md)
+  - [Generate Preview Urls](developer-guide/generate-preview-urls.md)
 - Research
   - Github Actions vs CircleCI
 - Testing
