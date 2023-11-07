@@ -20,7 +20,7 @@ Interested in becoming a judge
 A referee nominated by the candidate
 
 ### Panellists
-A person who sits on a panel to adjuductae on applications
+A person who sits on a panel to adjudicate on applications
 
 ## Future research
 
