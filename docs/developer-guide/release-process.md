@@ -51,7 +51,7 @@ Benefits of the process:
 
 1. Developer takes their next ticket from top of the 'Ready To Play' column moving it to ‘In progress’ (or ‘Blocked’ if there is a problem).
 
-2. Developer names the ticket according to the branch. See: [Git Branch Naming](developer-guide/git-branch-naming.md)
+2. Developer names the ticket according to the branch. See: [Git Branch Naming](git-branch-naming.md)
 
 3. Works begins on coding the feature/bugfix.
 
