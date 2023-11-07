@@ -50,23 +50,6 @@ has been applied; whether reasonable adjustments should be applied.
 Documents this collection represent candidates applying for one or more judicial roles.
 
 
-## Collection: `qualifyingTests`
-
-Documents this collection represent online tests which candidates applying for a judicial role must sit.
-
-Note: Not all exercises/vacancies have qualifying tests.
-Note: Equal Merit Tie-breaker tests are also stored in the `qualifyingTests` collection, denoted by the
-`isTieBreaker` flag on the document.
-
-
-## Collection: `qualifyingTestResponses`
-
-After an online test has been created for an exercise the JAC selects candidates that should sit the test.
-The test is then _activated_ by the JAC, at which point a copies of the test are created in the `qualifyingTestResponses`
-collection for each candidate. These documents are start off as blank test papers, and eventually store
-candidate's answers (responses).
-
-
 ## Collection: `qualifyingTestReports`
 
 Documents in this collection represent a report containing stastical data about one more qualifying tests,
