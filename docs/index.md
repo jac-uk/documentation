@@ -13,6 +13,7 @@ We are currently updating our documentation and bringing it together in one plac
 - Developer Guide
   - [Welcome to JAC Digital team](developer-guide/welcome.md)
   - [Sprint Planning Process](developer-guide/sprint-planning-process.md)
+  - [Software Development Process](developer-guide/software-development-process.md)
   - [Release process](developer-guide/release-process.md)
   - [Hotfix process](developer-guide/hotfix-process.md)
 - Research
