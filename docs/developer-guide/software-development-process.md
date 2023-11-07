@@ -39,6 +39,6 @@ parent: Developer guide
 
 5. At any point from the pull request being created it needs 1+ approvals from in-house developers, both contractors, product owner and User Testing Group.
 
-5. When the code review has been approved and the pull request ahs passed user testing the code can be merged into the main branch and gets automatically deployed to Staging.
+5. When the code review has been approved and the pull request has passed user testing the code can be merged into the main branch and gets automatically deployed to Staging.
 
 ---
