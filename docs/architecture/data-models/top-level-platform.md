@@ -6,7 +6,7 @@ nav_exclude: true
 
 ## Entity-Relationship Diagram
 
-![](top-level.svg)
+![](top-level-platform.svg)
 
 
 ## Collection: `exercises`
