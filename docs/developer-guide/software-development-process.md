@@ -23,7 +23,7 @@ parent: Developer guide
 
 4. The complexity points are added to the ticket and it is moved to the 'Ready To Play' column.
 
-## GitHub FLow
+## Developer Work Flow
 
 1. Developer takes their next ticket from top of the 'Ready To Play' column moving it to ‘In progress’ (or ‘Blocked’ if there is a problem).
 
