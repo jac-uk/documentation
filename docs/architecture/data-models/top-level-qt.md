@@ -39,7 +39,7 @@ Event logs can be viewed from within the JAC Admin portal.
 
 ## Collection: `folders`
 
-Documents in this collection contain folder names.
+Documents in this collection contain folders which are used to store qualifyingTests.
 
 
 ## Collection: `settings`
