@@ -45,3 +45,4 @@ Version 3 of the application introduces additional fields within the `experience
 | experience.judicialFunctions.isLegalQualificationRequired | boolean   | Requirement of legal qualification for appointment       |
 | experience.judicialFunctions.details                      | string    | Overview of powers, procedures, and responsibilities     |
 | experienceDetails                                         | string    | Details of how you have acquired the necessary skills    |
+| employmentGaps.isOngoing                                  | boolean   | Indicates if the employment gap is ongoing               |
