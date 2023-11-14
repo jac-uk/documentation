@@ -24,6 +24,7 @@ A `applications` document contains the following fields:
 | experience.taskDetails.jurisdiction                       | string    | Primary operating location or region                     |
 | experience.taskDetails.location                           | string    | Jurisdiction or area of law                              |
 | experience.taskDetails.workingBasis                       | string    | Basis of work                                            |
+| experienceDetails                                         | string    | Details of how you have acquired the necessary skills    |
 
 ## Application Version 3
 
@@ -37,3 +38,4 @@ Version 3 of the application introduces additional fields within the `experience
 | experience.judicialFunctions.duration                     | number    | Accumulated sitting days in this post                    |
 | experience.judicialFunctions.isLegalQualificationRequired | boolean   | Requirement of legal qualification for appointment       |
 | experience.judicialFunctions.details                      | string    | Overview of powers, procedures, and responsibilities     |
+| experienceDetails                                         | string    | Details of how you have acquired the necessary skills    |
