@@ -25,6 +25,12 @@ A `applications` document contains the following fields:
 | experience.taskDetails.location                           | string    | Jurisdiction or area of law                              |
 | experience.taskDetails.workingBasis                       | string    | Basis of work                                            |
 | experienceDetails                                         | string    | Details of how you have acquired the necessary skills    |
+| employmentGaps                                            | array     | Employment gaps                                          |
+| employmentGaps.details                                    | string    | Details of the employment gap                            |
+| employmentGaps.startDate                                  | timestamp | Start date                                               |
+| employmentGaps.endDate                                    | timestamp | End date                                                 |
+| employmentGaps.isOngoing                                  | boolean   | Indicates if the employment gap is ongoing               |
+| employmentGaps.tasks                                      | array     | Law-related tasks within this role                       |
 
 ## Application Version 3
 
