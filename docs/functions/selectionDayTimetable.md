@@ -24,11 +24,11 @@
 
 1.  **Timetable Data Model:**
     -   `timetable`: Array of Objects
-        -   `CandidateRef`: string (candidate ID)
-        -   `Date`: Date
-        -   `Panel`: string (panel ID)
-        -   `ReasonableAdjustment`: boolean
-        -   `Slot`: number
+        -   `candidateRef`: string (candidate ID)
+        -   `date`: Date
+        -   `panel`: string (panel ID)
+        -   `reasonableAdjustment`: boolean
+        -   `slot`: number
 2.  **Unassigned Candidates Data Model:**
     -   `unassignedCandidates`: Array of Objects
         -   `candidate`: Object
