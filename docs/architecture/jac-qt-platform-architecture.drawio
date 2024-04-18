@@ -1,4 +1,4 @@
-<mxfile modified="2024-04-18T12:16:59.570Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="jqBg6Q2bj87xjCGDeb6o" version="24.2.5" type="github" pages="3">
+<mxfile modified="2024-04-18T12:20:01.085Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/124.0" etag="kK0VmcFkD_pkO55rR26V" version="24.2.5" type="github" pages="3">
   <diagram id="oyVTfbrthm_-wxzk1ZXb" name="Context">
     <mxGraphModel dx="1865" dy="1247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,8 +79,8 @@
             <mxPoint x="10" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yy4u_d4SeMjxJnoAWtQS-34" value="&lt;h1&gt;System context diagram&lt;br&gt;&lt;/h1&gt;&lt;p&gt;18/04/2024&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="26" y="33" width="355" height="70" as="geometry" />
+        <mxCell id="Yy4u_d4SeMjxJnoAWtQS-34" value="&lt;h1&gt;System context diagram for QT Platform&lt;br&gt;&lt;/h1&gt;&lt;p&gt;18/04/2024&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" parent="1" vertex="1">
+          <mxGeometry x="26" y="33" width="504" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Yy4u_d4SeMjxJnoAWtQS-47" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="615" y="50" width="191" height="53" as="geometry" />
