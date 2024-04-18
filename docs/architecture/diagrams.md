@@ -13,7 +13,7 @@ We use [diagrams.net](https://www.diagrams.net) to create and edit our diagrams.
 
 The following context diagram is suitable for anyone to gain a high-level overview of the system. It shows the main personas interacting with the Digital Platform and the existing software the system connects to.
 
-![System Context diagram](jac-overview-Context.svg)
+![System Context diagram](jac-digital-platform-architecture-Context.drawio.svg)
 
 
 ## <a name="container"></a> Level 2: Container diagram
