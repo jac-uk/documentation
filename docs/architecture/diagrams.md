@@ -13,14 +13,18 @@ We use [diagrams.net](https://www.diagrams.net) to create and edit our diagrams.
 
 The following context diagram is suitable for anyone to gain a high-level overview of the system. It shows the main personas interacting with the Digital Platform and the existing software the system connects to.
 
-![System Context diagram](jac-digital-platform-architecture-Context.drawio.svg)
+![System Context diagram for Digital Platform](jac-digital-platform-architecture-Context.drawio.svg)
+
+![System Context diagram for QT Platform](jac-qt-platform-architecture-Context.drawio.svg)
 
 
 ## <a name="container"></a> Level 2: Container diagram
 
 The following diagram is aimed at support and operations staff as well as developers and architects. It shows the primary "containers" that comprise the Digital Platform.
 
-![Container diagram](jac-overview-Container.svg)
+![Container diagram for Digital Platform](jac-digital-platform-architecture-Container.drawio.svg)
+
+![Container diagram for QT Platform](jac-qt-platform-architecture-Container.drawio.svg)
 
 We have three user-facing containers. All are [Single Page Applications (SPAs)](https://en.wikipedia.org/wiki/Single-page_application) using [Vue.js](https://vuejs.org). They are hosted in [Firebase Hosting](https://firebase.google.com/docs/hosting) and connect to our cloud back end services using the [Firebase SDK](https://firebase.google.com/docs/reference/js).
 
