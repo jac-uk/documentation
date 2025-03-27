@@ -3,28 +3,16 @@ nav_order: 2
 ---
 
 # Users
-
-_DRAFT: we need to include more detail!_
-
-## Personas
-
-Our service is designed to benefit the following users
+Our service is designed to benefit the following users:
 
 ### JAC Staff
-Member of the JAC team
+All JAC staff, in particular, Selection Exercise teams (operational staff)
 
 ### Candidates
-Interested in becoming a judge
+Individuals interested in applying for judicial roles.
 
 ### Assessors
-A referee nominated by the candidate
+Individuals nominated by candidates to provide a reference for them.
 
-### Panellists
-A person who sits on a panel to adjudicate on applications
-
-## Future research
-
-We will soon extend our service to benefit the following users
-
-### Commissioners
-
+### Panel chairs
+The lead individual in a group of panellists that assess applications at sift and selection days.
